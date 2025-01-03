@@ -23,7 +23,7 @@ body {
 }
 
 .disclaimer {
-    color: rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.09);
 }
 
 .header h1, .header p {
@@ -50,8 +50,19 @@ body {
 }
 
 .content {
+    text-align: center;
     margin-top: 310px;
     padding: 20px;
-    line-height: 1.6;
+    line-height: 1;
     height: 2000px;
+}
+
+.content span {
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+}
+
+.content span ad {
+    -webkit-text-stroke: 1.5px black;
 }
